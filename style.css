@@ -29,22 +29,55 @@ ul {
 
 }
 
+.FirstContainer {
+
+    display: flex;
+    gap: 50px;
+    padding-bottom: 100px;
+    align-items: center;
+    font-weight: bold;
+}
+
+button {
+
+    display: flex;
+    justify-content: left;
+}
+
+.ImgBox {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.SecondContainer {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    gap: 100px;
+
+
+}
+
 h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     direction: row;
     align-items: right;
+
 } 
 
 .boss { 
 
+    width: 250px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: center;
     text-align: center;
-    margin-bottom: 35px;
 
     
 } 
